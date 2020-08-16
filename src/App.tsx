@@ -1,10 +1,22 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
+import Section from './Section';
+
+import data from './data';
 
 function App() {
   return (
     <>
-       <h1> Rocketseat </h1>
+    
+       {
+         data.map((item) => (
+          <Section
+            variant={item.variant}
+            title={item.title}
+            description={item.description}/>
+         ))
+       }
+
        <GlobalStyles />
     </>
   );
