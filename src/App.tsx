@@ -1,21 +1,26 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
-import Section from './Section';
+import Section from './components/Section';
+import SideMenu from './components/SideMenu';
 
 import data from './data';
 
-function App() {
+const App = () => {
   return (
     <>
     
        {
          data.map((item) => (
           <Section
+            key={item.id}
             variant={item.variant}
             title={item.title}
             description={item.description}/>
          ))
        }
+
+      <SideMenu>
+      </SideMenu>
 
        <GlobalStyles />
     </>
