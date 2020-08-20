@@ -16,7 +16,7 @@ export const Container = styled.div`
   &.beige {
     --bg-color: var(--color-secondary);
     --text-color: var(--color-quaternary);
-    --logo-color: var(--color-secondary);
+    --logo-color: var(--color-primary);
   }
 
   &.white {

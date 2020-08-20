@@ -1,6 +1,7 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
 import Section from './components/Section';
+import MenuForm from './components/MenuForm';
 import SideMenu from './components/SideMenu';
 
 import data from './data';
@@ -20,6 +21,7 @@ const App = () => {
        }
 
       <SideMenu>
+       <MenuForm />
       </SideMenu>
 
        <GlobalStyles />
