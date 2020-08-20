@@ -1,6 +1,4 @@
-<h1 align="center" > 
 ![Dropbox Demo](demo/screenshot.gif)
-</h1>
 
 <h3 align="center">
   Dropbox - clone 
