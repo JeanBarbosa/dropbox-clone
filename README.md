@@ -1,44 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" > 
+![Dropbox Demo](demo/screenshot.gif)
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  Dropbox - clone 
+</h3>
 
-In the project directory, you can run:
+<p align="center">
 
-### `yarn start`
+  <a target="_blank"  href ="https://telzir.com.br">
+    <img alt="Made by Dropbox" src="https://img.shields.io/badge/made%20by-Dropbox-%2304D361">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <a target="_blank"  href ="https://github.com/jeanbarbosa/Dropbox/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/jeanbarbosa/Dropbox?style=social">
+  </a>
+</p>
 
-### `yarn test`
+<p align="center">
+  <a target="_blank"  href ="#Dropbox">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a target="_blank"  href ="#information_source-how-to-use">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a target="_blank"  href ="#memo-license">Licença</a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Dropbox
+Clone do Dropbox - UI
 
-### `yarn build`
+## :information_source: How To Use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Clone repository:
+$ git clone https://github.com/JeanBarbosa/dropbox-clone.git && cd dropbox-clone
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+$ yarn install && yarn start
 
-### `yarn eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/jeanbarbosa/dropbox-clone/blob/master/LICENSE) for more information.
